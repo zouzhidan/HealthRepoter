@@ -11,7 +11,7 @@ household_register = os.environ["HOUSEHOLD_REGISTER"]       # 户籍所在地
 phone_number = os.environ["PHONE_NUMBER"]                   # 联系电话
 current_location = os.environ["CURRENT_LOCATION"]           # 当前所在地
 serverChan_key = os.environ["SERVERCHAN_KEY"]               # Server 酱 Key
-at_school = 0                                               # 0：不在  1：在
+at_school = 1                                               # 0：不在  1：在
 send_message = True                                         # 1：发送(默认)  0：不发送
 
 try:
